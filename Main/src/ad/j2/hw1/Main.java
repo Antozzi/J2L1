@@ -17,6 +17,7 @@ public class Main {
                 new Robot("Kuzya"),
                 new Man("Fedya")
         };
+
         Obstacle[] obstacles = {new RunningLane(distance), new Wall(height)};
 
         Team team = new Team("ManCatRobots", competitors);
