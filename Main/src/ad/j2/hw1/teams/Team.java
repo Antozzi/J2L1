@@ -1,7 +1,7 @@
 package ad.j2.hw1.teams;
 
 public class Team {
-    String teamName;
+    private final String teamName;
     Competitor[] teamMembers;
 
 
