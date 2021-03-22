@@ -30,9 +30,9 @@ public abstract class TeamMember implements Competitor {
 
     public void jump(int height){
         if (height <= maxJumpHeight){
-            System.out.printf("%s %s jumped OK at height %s meters\n",type,name,height);
+            System.out.printf("%s %s jumped OK at height %s meters%n",type,name,height);
         } else {
-            System.out.printf("%s %s could not jump at height %s meters\n",type,name,height);
+            System.out.printf("%s %s could not jump at height %s meters%n",type,name,height);
             setOnDistance("Looser!!!");
         }
     }
