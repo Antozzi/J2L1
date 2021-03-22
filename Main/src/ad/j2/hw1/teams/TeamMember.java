@@ -21,9 +21,9 @@ public abstract class TeamMember implements Competitor {
 
     public void run(int distance){
         if (distance <= maxRunDistance){
-            System.out.printf("%s %s ran OK for distance %s meters\n",type,name,distance);
+            System.out.printf("%s %s ran OK for distance %s meters%n",type,name,distance);
         } else {
-            System.out.printf("%s %s could not run for %s meters distance\n",type,name,distance);
+            System.out.printf("%s %s could not run for %s meters distance%n",type,name,distance);
             setOnDistance("Looser!!!");
         }
     }
